@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <head>
+      <title>
+        Ultimate Physics Engine Demo
+      </title>
+      <script src="https://threejs.org/build/three.min.js"></script>
+      <script src="physi.js"></script>
+      <Style>
+        body{
+          margin:0;
+          padding:0;
+          overflow:hidden;
+        }
+        canvas{
+          z-index:1;
+          position:absolute;
+          top:0;
+          left:0;
+        }
+        </style>
+    </head>
+    <div id="info" style="position:absolute;top:1%;left:1%;color:white;font-family:sans-serif;z-index:2"></div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="tween.js"></script>
+    <script src="script.js" type="module"></script>
+  </body>
+</html>

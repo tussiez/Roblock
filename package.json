@@ -1,0 +1,21 @@
+{
+  "name": "ultimatephysicsengine",
+  "version": "1.0.0",
+  "description": "Multiplayer physics w/physi.js",
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "keywords": [],
+  "author": "tussiez",
+  "license": "ISC",
+  "dependencies": {
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "nodejs-physijs": "^0.1.5",
+    "physijs": "^1.0.4",
+    "socket.io": "^3.0.4",
+    "three": "^0.124.0"
+  },
+  "devDependencies": {}
+}
